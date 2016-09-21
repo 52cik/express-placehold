@@ -1,6 +1,6 @@
 # express-placehold
 
-> express placeholder image generator
+> express placeholder image generator  
 > **It will not output PNG, JPG pictures, just SVG.**
 
 [![Linux Build][travis-image]][travis-url]
@@ -15,7 +15,7 @@
 ### Installation
 
 ``` sh
-$ npm install --save-dev 52cik/express-placehold
+$ npm install --save-dev express-placehold
 ```
 
 ### Examples
@@ -42,6 +42,7 @@ app.listen(3000);
 
 Then you can access the http://localhost:3000/placehold/200x100/369/fff?text=hello%20world! through the browser.
 
+
 ### Format
 
 ```
@@ -53,17 +54,16 @@ http://localhost:3000/[size][/bgcolor][/color][?text=test]
 * **color** - The CSS color property.
 * **text** - The text information.
 
+
 ### Examples
 
-```
-http://localhost:3000/200
-http://localhost:3000/200x100
-http://localhost:3000/200x100/eee
-http://localhost:3000/200x100/369/fff
-http://localhost:3000/200x100/369/fff?text=hello%20world!
-http://localhost:3000/?text=hello%20world!
-etc.
-```
+> <http://localhost:3000/200>
+> <http://localhost:3000/200x100>
+> <http://localhost:3000/200x100/eee>
+> <http://localhost:3000/200x100/369/fff>
+> <http://localhost:3000/200x100/369/fff?text=hello%20world!>
+> <http://localhost:3000/?text=hello%20world!>
+> etc.
 
 
 [travis-url]: https://travis-ci.org/52cik/express-placehold
