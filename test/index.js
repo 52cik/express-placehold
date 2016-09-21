@@ -71,4 +71,14 @@ describe('express placehold test:', function () {
       .get('/test/200')
       .expect(200, /hello/, done);
   });
+
+  it('should default 100x100px', function (done) {
+    var app = express();
+    app.use(placehold());
+
+    request(app)
+      .get('/placehold/')
+      .expect('Content-Type', /svg/)
+      .expect(200, /100x100/, done);
+  });
 });
