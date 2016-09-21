@@ -1,6 +1,6 @@
 'use strict';
 
-var placehold = require('node-placehold');
+var placehold = require('placehold');
 
 module.exports = function(prefix) {
   var prefix = prefix || '/placehold';
