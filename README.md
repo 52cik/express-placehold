@@ -57,12 +57,12 @@ http://localhost:3000/[size][/bgcolor][/color][?text=test]
 
 ### Examples
 
-> <http://localhost:3000/200>
-> <http://localhost:3000/200x100>
-> <http://localhost:3000/200x100/eee>
-> <http://localhost:3000/200x100/369/fff>
-> <http://localhost:3000/200x100/369/fff?text=hello%20world!>
-> <http://localhost:3000/?text=hello%20world!>
+> <http://localhost:3000/200>  
+> <http://localhost:3000/200x100>  
+> <http://localhost:3000/200x100/eee>  
+> <http://localhost:3000/200x100/369/fff>  
+> <http://localhost:3000/200x100/369/fff?text=hello%20world!>  
+> <http://localhost:3000/?text=hello%20world!>  
 > etc.
 
 
