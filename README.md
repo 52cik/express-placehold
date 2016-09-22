@@ -40,7 +40,7 @@ app.use('/use-path', placehold())
 app.listen(3000);
 ```
 
-Then you can access the http://localhost:3000/placehold/200x100/369/fff?text=hello%20world! through the browser.
+Then you can access the <http://localhost:3000/placehold/200x100/369/fff?text=hello%20world!> through the browser.
 
 
 ### Format
